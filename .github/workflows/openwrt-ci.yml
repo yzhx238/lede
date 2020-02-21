@@ -7,7 +7,7 @@
 # <https://github.com/KFERMercer/OpenWrt-CI>
 #
 
-name: OpenWrt-自用
+name: OpenWrt-周五更新
 
 on:
   push:
