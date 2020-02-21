@@ -144,9 +144,8 @@ jobs:
           # 常用LuCI插件选择:
           cat >> .config <<EOF
           CONFIG_PACKAGE_luci-app-adbyby-plus=y
-          CONFIG_PACKAGE_luci-app-docker=y
+          CONFIG_PACKAGE_luci-app-dockerman=y
           CONFIG_PACKAGE_luci-app-frpc=y
-          CONFIG_PACKAGE_luci-app-minidlna=y
           CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Kcptun=y
           CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Shadowsocks=y
           CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_ShadowsocksR_Server=y
@@ -165,15 +164,17 @@ jobs:
           CONFIG_PACKAGE_luci-app-nlbwmon=y
           CONFIG_PACKAGE_luci-app-ramfree=y
           CONFIG_PACKAGE_luci-app-aria2=n
-          # CONFIG_PACKAGE_luci-app-baidupcs-web=y
-          # CONFIG_PACKAGE_luci-app-hd-idle=y
-          # CONFIG_PACKAGE_luci-app-kodexplorer=y
-          # CONFIG_PACKAGE_luci-app-minidlna=y
+          CONFIG_PACKAGE_luci-app-baidupcs-web=n
+          CONFIG_PACKAGE_luci-app-hd-idle=n
+          CONFIG_PACKAGE_luci-app-kodexplorer=n
+          CONFIG_PACKAGE_luci-app-minidlna=n
           CONFIG_PACKAGE_luci-app-openvpn=n
           CONFIG_PACKAGE_luci-app-openvpn-server=n
           CONFIG_PACKAGE_luci-app-qbittorrent=n
-          CONFIG_PACKAGE_luci-app-v2ray-server=n
+          CONFIG_PACKAGE_luci-app-v2ray-server=y
           CONFIG_PACKAGE_luci-app-verysync=n
+          CONFIG_PACKAGE_luci-app-xlnetacc=n
+          
           EOF
 
           # LuCI主题:
