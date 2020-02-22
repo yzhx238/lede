@@ -170,8 +170,10 @@ jobs:
           CONFIG_PACKAGE_luci-app-minidlna=n
           CONFIG_PACKAGE_luci-app-openvpn=n
           CONFIG_PACKAGE_luci-app-openvpn-server=n
+          CONFIG_PACKAGE_luci-app-ipsec-vpnd=n
+          CONFIG_PACKAGE_luci-app-pptp-server=n
           CONFIG_PACKAGE_luci-app-qbittorrent=n
-          CONFIG_PACKAGE_luci-app-v2ray-server=y
+          CONFIG_PACKAGE_luci-app-v2ray-server=n
           CONFIG_PACKAGE_luci-app-verysync=n
           CONFIG_PACKAGE_luci-app-xlnetacc=n
           
