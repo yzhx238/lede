@@ -9,12 +9,12 @@
 
 name: OpenWrt-更新2
 
-on:
-  push:
-    branches: 
-      - master
-  schedule:
-    - cron: 0 20 * * *
+#on:
+ # push:
+  #  branches: 
+    #  - master
+  #schedule:
+   # - cron: 0 20 * * *
   # release:
     # types: [published]
 
